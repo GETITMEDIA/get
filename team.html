@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wealcoder.com/dev/html/axtra/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Aug 2024 06:15:01 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- META KEYWORDS -->
+<meta name="keywords" content="Meet Our Team Getit Media Solutions, Digital Marketing Team Pondicherry, SEO Experts, Web Development Team, Social Media Marketing Specialists, Branding Experts Pondicherry, Google Partner Team Pondicherry, Graphic Designers, Digital Marketing Professionals Pondicherry" />
+
+<!-- TITLE & DESCRIPTION -->
+<title>Meet Our Team | Getit Media Solutions - Digital Marketing Experts in Pondicherry</title>
+<meta name="description" content="Meet the expert team behind Getit Media Solutions, a top digital marketing agency in Pondicherry. Our talented team specializes in SEO, website development, social media marketing, branding, and creative design." />
+
+<!-- OPEN GRAPH -->
+<meta property="og:title" content="Meet Our Team | Getit Media Solutions - Experts in Digital Marketing" />
+<meta property="og:description" content="Discover the talented professionals at Getit Media Solutions who are helping businesses grow with SEO, web development, branding, social media, and more in Pondicherry." />
+<meta property="og:image" content="https://www.getitmediasolutions.com/assets/imgs/logo/GETITLogo1.png" />
+<meta property="og:url" content="https://www.getitmediasolutions.com/team.html" />
+<meta property="og:type" content="website" />
+
+<!-- TWITTER -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Meet Our Team | Getit Media Solutions - Digital Marketing Experts" />
+<meta name="twitter:description" content="Get to know the skilled professionals at Getit Media Solutions. Our team excels in digital marketing, SEO, branding, and website development in Pondicherry." />
+<meta name="twitter:image" content="https://www.getitmediasolutions.com/assets/imgs/logo/GETITLogo1.png" />
+
+<!-- CANONICAL URL -->
+<link rel="canonical" href="https://www.getitmediasolutions.com/team.html" />
+
+<!-- STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Getit Media Solutions",
+  "url": "https://www.getitmediasolutions.com",
+  "mainEntityOfPage": "https://www.getitmediasolutions.com/team.html",
+  "logo": "https://www.getitmediasolutions.com/assets/imgs/logo/GETITLogo1.png",
+  "description": "Getit Media Solutions is a digital marketing agency in Pondicherry, featuring a talented team of SEO, web development, and branding experts who help businesses grow online.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No.10 2nd Floor, 4th Cross, Victoria Nagar",
+    "addressLocality": "Pondicherry",
+    "postalCode": "605005",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "11.9139",
+    "longitude": "79.8145"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "telephone": "+91-9843926286",
+  "priceRange": "$$",
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=100069088178554",
+    "https://www.instagram.com/getit_mediasolutionspy/",
+    "https://www.linkedin.com/in/getit-media-solutions/"
+  ]
+}
+</script>
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17759972509"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17759972509');
+</script>
+
+
+
+<!-- FIXED FAVICON (no spaces, correct filename for caching) -->
+<link rel="icon" type="image/png" href="assets/imgs/logo/GETITLogo1.png">
+
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- CSS FILES -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/all.min.css">
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+<link rel="stylesheet" href="assets/css/progressbar.css">
+<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+<link rel="stylesheet" href="assets/css/master.css">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="assets/css/team.css">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+<style>
+
+
+/* Optional subtle shadow for separation */
+.team-section:not(:last-child) {
+  box-shadow: inset 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+/* Second image wrapper (floating animation) */
+.team__member-image-wrapperss {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: -1;
+  animation: floatAnimation 4s ease-in-out infinite;
+}
+
+
+/*.team__member-image-wrapperss img {*/
+/*    width: 100%;*/
+/*    height: 400px;*/
+
+/*}*/
+
+/* Floating infinite animation */
+@keyframes floatAnimation {
+  0%   { transform: translate(-50%, 0); }
+  50%  { transform: translate(-50%, -15px); }
+  100% { transform: translate(-50%, 0); }
+}
+
+
+/* ✅ Mobile View Fix */
+@media (max-width: 768px) {
+  .team__member-image-wrapperss {
+    left: 38%;              /* center on mobile */
+    top: 10px;              /* adjust top spacing */
+    transform: translateX(-50%);
+  }
+
+  .team__member-image-wrapperss img {
+    width: 100%;             /* reduce size for mobile */
+    max-width: 250px;
+  }
+}
+
+/* ✅ Small Mobile (extra small screens) */
+@media (max-width: 480px) {
+  .team__member-image-wrapperss img {
+    width: 160%;
+    max-width: 300px;
+  }
+}
+
+</style>
+</head>
+
+
+<body>
+
+  <!-- Offcanvas area end -->
+
+  <div class="cursor1"></div>
+  <div class="cursor2"></div>
+
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loading">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+      <div class="bar bar6"></div>
+      <div class="bar bar7"></div>
+      <div class="bar bar8"></div>
+    </div>
+  </div>
+
+
+
+  <!-- Switcher Area Start -->
+  <div class="switcher__area">
+    <div class="switcher__icon">
+      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="switcher__items">
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Cursor</h2>
+        </div>
+        <div class="switcher__btn">
+          <select name="cursor-style" id="cursor_style">
+            <option value="1">default</option>
+            <option selected value="2">animated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">mode</h2>
+        </div>
+        <div class="switcher__btn mode-type wc-col-2">
+          <button class="active" data-mode="light">light</button>
+          <button data-mode="dark">dark</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Direction</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+
+      <div class="switcher__item">
+        <div class="switch__title-wrap">
+          <h2 class="switcher__title">Language Support</h2>
+        </div>
+        <div class="switcher__btn lang_dir wc-col-2">
+          <button class="active" data-mode="ltr">LTR</button>
+          <button data-mode="rtl">RTL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Switcher Area End -->
+
+
+
+  <!-- Scroll Smoother -->
+  <div class="has-smooth" id="has_smooth"></div>
+
+
+  <!-- Go Top Button -->
+  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <!-- Header area start -->
+  <header class="header__area-2">
+    <div class="header__inner-2">
+      <div class="header__logo-2">
+        <a href="index.html"><img src="assets/imgs/logo/GETIT Logo 1.png" alt="Site Logo" class="logo"></a>
+      </div>
+      <div class="header__nav-2">
+        <ul class="main-menu menu-anim">
+          <li class="has-megamenu"><a href="index.html">home</a>
+          </li>
+          <li class="has-megamenu"><a href="about-us.html">About Us</a>
+          </li>
+          <li class="has-megamenu"><a href="#">Services</a>
+            <ul class="mega-menu">
+            
+              <li>
+                
+                <ul>
+                  <li><a href="googlemybusiness.html">Google My Business</a></li>
+                  <li><a href="google-ads.html">Google Ads</a></li>
+                  <li><a href="socialmedia.html">Social Media Marketing</a></li>
+                  <li><a href="searchengine.html">Search Engine Optimization</a></li>
+                  <li><a href="searchengine.html">Website Design & Development</a></li>
+                  <li><a href="graphic.html">Graphic Design</a></li>
+                  <li><a href="videoediting.html">Video Editing</a></li>
+                 
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="has-megamenu"><a href="team.html">Team</a>
+          </li>
+          <li class="has-megamenu"><a href="Portfolio.html">Portfolio</a>
+          </li>
+          <li class="has-megamenu"><a href="price.html">Price Details</a>
+          </li>
+          <li class="has-megamenu"><a href="contact.html">Contact Us</a>
+          </li>
+        
+         
+         
+         
+         
+        </ul>
+      </div>
+      <div class="header__nav-icon-2" id="menu">
+        <button class="menu-icon-2" id="open_offcanvas"><img src="assets/imgs/icon/menu-white.png"
+            alt="Menubar Icon"></button>
+      </div>
+    </div>
+  </header>
+  <!-- Header area end -->
+
+
+  <!-- Offcanvas area start -->
+  <div class="offcanvas__area">
+    <div class="offcanvas__body">
+      <div class="offcanvas__left">
+        <div class="offcanvas__logo">
+          <a href="index.html"><img src="assets/imgs/logo/GETIT Logo 1.png" alt="Offcanvas Logo" class="logo"></a>
+        </div>
+    
+        <div class="offcanvas__links">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="blog.html">blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="offcanvas__mid">
+        <div class="offcanvas__menu-wrapper">
+          <nav class="offcanvas__menu">
+            <ul class="menu-anim">
+              <li><a href="index.html">home</a>
+              </li>
+              <li><a href="about.html">About</a>
+              </li>
+             
+              <li>
+                <a>Service</a>
+                <ul>
+                  <li><a href="googlemybusiness.html">Google My Business</a></li>
+                  <li><a href="google-ads.html">Google Ads</a></li>
+                  <li><a href="socialmedia.html">Social Media Marketing</a></li>
+                  <li><a href="searchengine.html">Search Engine Optimization</a></li>
+                  <li><a href="searchengine.html">Website Design & Development</a></li>
+                  <li><a href="graphic.html">Graphic Design</a></li>
+                  <li><a href="videoediting.html">Video Editing</a></li>
+                </ul>
+              </li>
+              <li><a href="team.html">team</a>
+              </li>
+              <li><a href="Portfolio.html">portfolio</a>
+              </li>
+              <li><a href="price.html">Price</a>
+              </li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="offcanvas__right">
+        <div class="offcanvas__search">
+          <form action="#">
+            <input type="text" name="search" placeholder="Search keyword">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="offcanvas__contact">
+          <h3>Get in touch</h3>
+          <ul>
+            <li><a href="tel:02094980547">+(02) - 094 980 547</a></li>
+            <li><a href="mailto:info@extradesign.com">info@extradesign.com</a></li>
+            <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+          </ul>
+        </div>
+        <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
+        <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2">
+      </div>
+      <div class="offcanvas__close">
+        <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offcanvas area end -->
+
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      <main>
+
+        <section class="hero__area-7">
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-12">
+                <div class="hero__title-wrap-7">
+                  <h1 class="hero__title-7">Award-winning <img src="assets/imgs/home-7/shape-1.png" alt="shape">
+                    digital solution
+                    agency <img src="assets/imgs/home-7/shape-2.png" alt=""></h1>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+          <img src="assets/imgs/home-7/shape-3.png" alt="Shape" class="shape-1">
+        </section>
+        
+       <section class="team__detail">
+          <div class="container line pb-140">
+            <div class="line-3"></div>
+            <div class="row">
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 offset-lg-0 offset-md-2">
+                      <!-- ✅ SECOND FLOATING IMAGE -->
+      <div class="team__member-image-wrapperss">
+          <img src="assets/imgs/logo/logo getit.png"
+               class="team__member-image"
+               alt="Floating Image">
+      </div>
+                <div class="team__member-image-wrapper">
+                    <br>
+                  <img src="assets/imgs/sir/sir pic.png" alt="Team Member Picture" class="team__member-image">
+                </div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+                <div class="sec-title-wrapper ">
+                  <h2 class="animate-charcter pt-5 sec-title " style="font-size:50px;"> G.ANTHONI MUTHU</h2> <br><br>
+                  <h3 class="team__member-role-7 animation__char_come">General Manager
+                  </h3>
+                  <p>We are thrilled to introduce Anthoni Muthu, our exceptional Digital Marketing General Manager at Getit Media Solution Pvt Ltd. With a proven track record in driving successful digital marketing campaigns and a deep understanding of the ever-evolving digital landscape, Anthony Muthu is the driving force behind our team's success. Let's take a closer look at their expertise and contributions.</p>
+                  <p>Anthoni Muthu brings a wealth of experience and strategic vision to our digital marketing efforts. With 17 years of industry experience, they have successfully guided numerous businesses toward digital marketing excellence. Their exceptional leadership skills and comprehensive understanding of digital marketing trends have made a significant impact on our client's success stories.</p>
+                   <p>We are proud to have Anthony Muthu as an invaluable member of our team. Their leadership, strategic thinking, and commitment to excellence drive our success and position us as a trusted partner for businesses seeking digital marketing prowess.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+     
+     
+      <!--team Mobie view end -->
+
+<section >
+
+  
+<!--  hr first part start  -->
+<div class="slide" style="background-color: whitesmoke;">
+
+    <div class="left-circle">
+        <!-- <span>Meet the Team</span> -->
+    </div>
+
+    <div class="content">
+        <h1>Hamsa Gayathri.D</h1>
+        <h4>Human Resources & Administration</h4>
+<br><br>
+        <p>
+            Human Resources & Administration manages employee recruitment, development, and welfare.<br>
+It also handles office operations, policies, and day-to-day administrative activities
+        </p>
+<br>
+<br>
+        <div class="skill">
+            <label>HR</label>
+            <div class="bar">
+                <div class="bar-fill" data-width="78%"></div>
+                <div class="percent">78%</div>
+            </div>
+        </div>
+<!-- 
+        <div class="skill">
+            <label>Placeholder</label>
+            <div class="bar">
+                <div class="bar-fill" data-width="65%"></div>
+                <div class="percent">65%</div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <div class="photo-area">
+        <div class="photo-circle">
+            <img src="assets/imgs/new-team/t-1 (5).jpg" alt="Profile">
+        </div>
+    </div>
+
+    <div class="blue-circle"></div>
+    <div class="slide-number">4</div>
+
+</div>
+
+
+
+<!--  hr first part end  -->
+
+
+
+
+
+<!--  social part start-->
+
+<section class="team-section">
+  <div class="soc-container-top">
+
+    <div class="team-left">
+      <div class="team-box blue">
+        <div class="photo">
+          <img src="assets/imgs/new-team/social-t (3).jpg" alt="Team Member">
+        </div>
+        <h4>Vigneshwari D</h4>
+        <span>Sr. Social Media
+Marketing</span>
+      </div>
+
+      <div class="team-box navy center">
+        <div class="photo-center">
+          <img src="assets/imgs/new-team/social-t (2).jpg" alt="Team Member">
+        </div>
+        <h4 class="tag">Siva.S</h4>
+     <span>Sr. Social Media
+Marketing</span>
+      </div>
+
+      <div class="team-box green leader">
+        <div class="photo">
+          <img src="assets/imgs/new-team/social-t (1).jpg" alt="Team Member">
+        </div>
+        <h4>devadarshini.S</h4>
+         <span>Social Media
+Marketing</span>
+      </div>
+
+
+      
+    </div>
+
+    <div class="team-right">
+      <h2>Social Media Marketing</h2>
+      <p>
+        Our talented team combines years of experience with innovative thinking to deliver exceptional results. We're passionate about what we do and committed to helping our clients achieve their goals through collaboration and creative problem-solving.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!--   social end -->
+<br><br>
+
+<!-- second graphic part start  -->
+<section class="grphic-co">
+<div class="graphic-team">
+  <div class="graphic-team-header">
+    <small>MEET OUR TEAM</small>
+    <h2>Graphic Design Department</h2>
+  </div>
+
+  <div class="graphic-team-grid">
+    <div class="graphic-card">
+      <div class="graphic-avatar">
+        <img src="assets/imgs/new-team/g-1 (1).jpg" alt="Prema K">
+      </div>
+      <p class="graphic-name">Prema K</p>
+      <p class="graphic-role">Senior Designer</p>
+      <p class="graphic-title">Graphic Design </p>
+     
+    </div>
+
+    <div class="graphic-card">
+      <div class="graphic-avatar">
+        <img src="assets/imgs/new-team/g-1 (2).jpg" alt="Baba G">
+      </div>
+      <p class="graphic-name">Baba G</p>
+      <p class="graphic-role">Senior Designer</p>
+      <p class="graphic-title">Graphic Design </p>
+   
+    </div>
+
+    <div class="graphic-card">
+      <div class="graphic-avatar">
+        <img src="assets/imgs/new-team/g-1 (3).jpg" alt="Snega V">
+      </div>
+      <p class="graphic-name">Snega V</p>
+      <p class="graphic-role">Senior Designer</p>
+      <p class="graphic-title">Graphic Design </p>
+   
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- second  graphic  part end  -->
+
+
+<!-- video team start  -->
+ <section class="video">
+<div class="wrapperss">
+    <h1 class="section-title">Video Editor</h1>
+<br><br>
+    <div class="scene">
+
+        <div class="cards">
+            <img src="assets/imgs/new-team/vedio-1 (1).jpg">
+            <div class="cards-info">
+                <h3 class="vi-name" >Ariharan.R</h3>
+                <p  style="color: antiquewhite;"> sr.Video Editor</p>
+            </div>
+        </div>
+
+        <div class="cards">
+                    <img src="assets/imgs/new-team/vedio-1 (2).jpg">
+            <div class="cards-info">
+                <h3 class="vi-name"  >Revathy.G</h3>
+                    <p  style="color: antiquewhite;"> Video Editor</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="assets/imgs/new-team/vedio-1 (3).jpg">
+            <div class="cards-info">
+                <h3 class="vi-name"  >Santhakumar.B</h3>
+                       <p  style="color: antiquewhite;">Video Editor</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="assets/imgs/new-team/vedio-1 (4).jpg">
+            <div class="cards-info">
+                <h3 class="vi-name">Shivani.P</h3>
+                <p style="color: antiquewhite;">Video Editor</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<!-- video team end  -->
+
+<!-- website start -->
+
+  <section class="website">
+  <!-- Code Rain Background -->
+  <div class="code-rain" id="codeRain"></div>
+
+  <!-- Loader -->
+  <!-- <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="binary-loader" id="binaryLoader">LOADING...</div>
+      <div class="loading-text">INITIALIZING TEAM DATA...</div>
+    </div>
+  </div> -->
+
+  <div class="containerss">
+    <div class="teams-section">
+      <h1>web developer</h1>
+      <p class="subtitle">Introducing Our Development Team</p>
+
+      <div class="teams-grid">
+        <!-- Team Member 1 -->
+        <div class="teams-card">
+          <div class="hexagon-containerss">
+            <div class="hexagon">
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <img src="assets/imgs/new-team/mugu.jpeg" 
+                   alt="Team Member"
+                   loading="lazy"
+                   onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iODAiIGZpbGw9IiMxNjFCMjIiLz4KPHBhdGggZD0iTTEwMCA3MEMxMTYuNTY5IDcwIDEzMCA4My40MzEgMTMwIDEwMEMxMzAgMTE2LjU2OSAxMTYuNTY5IDEzMCAxMDAgMTMwQzgzLjQzMSAxMzAgNzAgMTE2LjU2OSA3MCAxMDBDNzAgODMuNDMxIDgzLjQzMSA3MCAxMDAgNzBaTTE0MCA5MEg2MFY4MEgxNDBWOTBaTTE0MCAxMjBINjBWMTEwSDE0MFYxMjBaIiBmaWxsPSIjODI4QzkzIi8+Cjwvc3ZnPgo='">
+            </div>
+          </div>
+          <h3 class="">Mugundhan.k</h3>
+          <span> sr.WEB DEVELOPER</span>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="teams-card">
+          <div class="hexagon-containerss">
+            <div class="hexagon orange">
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <img src="assets/imgs/new-team/00.jpeg" 
+                   alt="Team Member"
+                   loading="lazy"
+                   onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iODAiIGZpbGw9IiMxNjFCMjIiLz4KPHBhdGggZD0iTTEwMCA3MEMxMTYuNTY5IDcwIDEzMCA4My40MzEgMTMwIDEwMEMxMzAgMTE2LjU2OSAxMTYuNTY5IDEzMCAxMDAgMTMwQzgzLjQzMSAxMzAgNzAgMTE2LjU2OSA3MCAxMDBDNzAgODMuNDMxIDgzLjQzMSA3MCAxMDAgNzBaTTE0MCA5MEg2MFY4MEgxNDBWOTBaTTE0MCAxMjBINjBWMTEwSDE0MFYxMjBaIiBmaWxsPSIjODI4QzkzIi8+Cjwvc3ZnPgo='">
+            </div>
+          </div>
+          <h3 class="orange">KISHOR</h3>
+          <span>WEB DEVELOPER</span>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="teams-card">
+          <div class="hexagon-containerss">
+            <div class="hexagon purple">
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <img src="assets/imgs/new-team/t-1 (15).jpg" 
+                   alt="Team Member"
+                   loading="lazy"
+                   onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iODAiIGZpbGw9IiMxNjFCMjIiLz4KPHBhdGggZD0iTTEwMCA3MEMxMTYuNTY5IDcwIDEzMCA4My40MzEgMTMwIDEwMEMxMzAgMTE2LjU2OSAxMTYuNTY5IDEzMCAxMDAgMTMwQzgzLjQzMSAxMzAgNzAgMTE2LjU2OSA3MCAxMDBDNzAgODMuNDMxIDgzLjQzMSA3MCAxMDAgNzBaTTE0MCA5MEg2MFY4MEgxNDBWOTBaTTE0MCAxMjBINjBWMTEwSDE0MFYxMjBaIiBmaWxsPSIjODI4QzkzIi8+Cjwvc3ZnPgo='">
+            </div>
+          </div>
+          <h3 class="purple">MENAGA</h3>
+          <span>WEB DEVELOPER</span>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="teams-card">
+          <div class="hexagon-containerss">
+            <div class="hexagon green">
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <div class="hexagon-ring"></div>
+              <img src="assets/imgs/new-team/t-1 (17).jpg" 
+                   alt="Team Member"
+                   loading="lazy"
+                   onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iODAiIGZpbGw9IiMxNjFCMjIiLz4KPHBhdGggZD0iTTEwMCA3MEMxMTYuNTY5IDcwIDEzMCA4My40MzEgMTMwIDEwMEMxMzAgMTE2LjU2OSAxMTYuNTY5IDEzMCAxMDAgMTMwQzgzLjQzMSAxMzAgNzAgMTE2LjU2OSA3MCAxMDBDNzAgODMuNDMxIDgzLjQzMSA3MCAxMDAgNzBaTTE0MCA5MEg2MFY4MEgxNDBWOTBaTTE0MCAxMjBINjBWMTEwSDE0MFYxMjBaIiBmaWxsPSIjODI4QzkzIi8+Cjwvc3ZnPgo='">
+            </div>
+          </div>
+          <h3 class="greens">CHARULATHA</h3>
+          <span>WEB DEVELOPER</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- website end  -->
+
+
+
+<!-- second tellcaller part start  -->
+
+<section>
+
+<div class="div-contaier">
+<div class="wrapper">
+    <h1>Tele Callers</h1>
+
+    <div class="team-container">
+        <div class="team-card">
+            <div class="avatar">
+                <img src="assets/imgs/new-team/team-01.avif" style="height: 110%;">
+            </div>
+            <div class="name">Edit Name</div>
+           <div class="description">
+              Tele Caller
+            </div>
+        </div>
+
+        <div class="team-card active">
+            <div class="avatar">
+                <img src="assets/imgs/new-team/t-1 (2).jpg">
+            </div>
+            <div class="name">Melina.A</div>
+            <div class="description">
+              Tele Caller
+            </div>
+        </div>
+
+        <div class="team-card">
+            <div class="avatar">
+             <img src="assets/imgs/new-team/team-01.avif" style="height: 110%;">
+            </div>
+            <div class="name">Edit Name</div>
+            <div class="description">
+              Tele Caller
+            </div>
+        </div>
+
+        <!-- <div class="team-card">
+            <div class="avatar">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg">
+            </div>
+            <div class="name">Edit Name</div>
+            <div class="description">
+                Full-stack developer delivering scalable web solutions.
+            </div>
+        </div> -->
+    </div>
+</div>
+</div>
+</section>
+<!-- second  tellcaller  part end  -->
+
+
+<!-- content writer start  -->
+
+
+
+<section class="content-writers">
+
+  <div class="content-writer-team-header">
+    <small>MEET OUR TEAM</small>
+    <h2>Content Writer Department</h2>
+  </div>
+
+  <div class="content-writer-card-wrapper">
+    <div class="content-writer-r-shape"></div>
+    <div class="content-writer-c-shape"></div>
+
+    <div class="content-writer-card">
+      <img src="assets/imgs/new-team/na.jpg" alt="Nandhini S">
+
+      <div class="content-writer-info">
+        <h3 class="content-writer-team-name">Nandhini S</h3>
+        <p class="content-writer-team-role">Content Writer</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- contetn writer end  -->
+
+</section>
+
+
+
+      <!-- Footer area start -->
+      
+    <footer class="footer__area-3">
+      <div class="footer__top-3">
+        <div class="footer__top-wrapper-3">
+          <!-- Footer Contact Section -->
+       <div class="footer__contact-3 ">
+      <a class="end" href="contact.html">Let’s talk</a>
+    </div>
+    
+    
+          <!-- Footer Social Media Section -->
+             <div class="footer__social-3">
+  <ul>
+    <li><a class="facebook" target="_blank" href="https://www.facebook.com/people/Getit-Media-Solutions-Pvt-Ltd/100069088178554/">Facebook</a></li>
+    <li><a class="youtube" target="_blank" href="https://www.youtube.com/@getitinfosys6367">Youtube</a></li>
+    <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/getit-media-solutions/">Linkedin</a></li>
+    <li><a class="instagram" target="_blank" href="https://www.instagram.com/getit_mediasolutionspy/">Instagram</a></li>
+  </ul>
+</div>
+    
+          <!-- Footer Logo Section -->
+          <div class="footer__logo-3 pt-5 p-5">
+            <img src="assets/imgs/logo/GETIT Logo 1.png" alt="Footer Logo" class="footerlogo">
+            <p>When do they work well, and when do they on us and finally, when do we actually need how can we avoid them.</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer__btm-3">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Copyright Section -->
+            <div class="col-xxl-4 col-xl-4 col-lg-4">
+              <div class="footer__copyright-3">
+                <p>© 2022 - 2025 | All rights reserved by <a href="https://www.getitmediasolutions.com/" target="_blank">GetitmediaSolutions</a></p>
+              </div>
+            </div>
+    
+            <!-- Footer Navigation Section -->
+            <div class="col-xxl-8 col-xl-8 col-lg-8">
+              <div class="footer__nav-2">
+                <ul class="footer-menu-2 menu-anim">
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="career.html">Career</a></li>
+                  <li><a href="faq.html">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <!-- Footer area end -->
+
+
+
+    </div>
+  </div>
+
+
+
+  <!---------script animation ------->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!---------script animation end  ------->
+
+
+  <!-- All JS files -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/chroma.min.js"></script>
+  <script src="assets/js/mixitup.min.js"></script>
+  <script src="assets/js/vanilla-tilt.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/main.js"></script>
+    <script src="assets/js/team.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from wealcoder.com/dev/html/axtra/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Aug 2024 06:15:01 GMT -->
+</html>
